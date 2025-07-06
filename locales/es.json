@@ -1,0 +1,168 @@
+{
+  "header": {
+    "file": "Archivo",
+    "newQuiz": "Nuevo Cuestionario",
+    "exit": "Salir",
+    "view": "Ver",
+    "toggleFullscreen": "Pantalla Completa",
+    "help": "Ayuda",
+    "instructions": "Instrucciones",
+    "logout": "Cerrar Sesión",
+    "reload": "Recargar cuestionario"
+  },
+  "login": {
+    "subtitle": "Tu aventura de preguntas personal te espera.",
+    "signIn": "Iniciar Sesión",
+    "register": "Registrarse",
+    "welcomeBack": "¡Bienvenido de Nuevo!",
+    "selectProfile": "Selecciona tu perfil",
+    "createProfile": "Crear un Nuevo Perfil",
+    "enterUsername": "Ingresa tu nombre de usuario",
+    "createAccount": "Crear Cuenta",
+    "creatingAccount": "Creando cuenta..."
+  },
+  "quickSetup": {
+    "title": "Configuración Rápida",
+    "subtitle": "Personaliza tu experiencia o simplemente empieza ya.",
+    "chooseAvatar": "Elige Tu Avatar",
+    "themeColor": "Color del Tema",
+    "language": "Idioma",
+    "musicTitle": "¿Quieres música de fondo?",
+    "uploadMusic": "Subir Música",
+    "uploading": "Subiendo...",
+    "continue": "Continuar a la Configuración del Cuestionario"
+  },
+  "settingsModal": {
+    "title": "Configuración",
+    "profileTitle": "Perfil de Usuario",
+    "loggedInAs": "Sesión iniciada como:",
+    "logout": "Cerrar Sesión",
+    "changeAvatar": "Cambiar Avatar",
+    "musicTitle": "Música de Fondo",
+    "loadMusic": "Cargar Música de Fondo",
+    "nowPlaying": "Reproduciendo Ahora",
+    "none": "Ninguna",
+    "appearanceTitle": "Apariencia e Idioma",
+    "themeColor": "Color del Tema",
+    "language": "Idioma"
+  },
+  "quizSettings": {
+    "welcome": "¡Bienvenido, {{username}}!",
+    "subtitle": "Personaliza tu cuestionario y empieza a aprender.",
+    "repeatAll": "Repetir Todo",
+    "repeatSingle": "Repetir Uno",
+    "noMusic": "Sin Música",
+    "errorTitle": "Error",
+    "level": "1. Nivel Académico",
+    "subjects": "2. Materias (selecciona al menos una)",
+    "quizLength": "3. Longitud del Cuestionario",
+    "questionFormat": "4. Formato de Pregunta",
+    "formatMultipleChoiceOnly": "Solo Opción Múltiple",
+    "formatTypedAnswersOnly": "Solo Respuestas Escritas",
+    "formatAMixOfBoth": "Una Mezcla de Ambas",
+    "repetition": "5. Repetición de Preguntas",
+    "timer": "6. Temporizador (por pregunta)",
+    "questions": "Preguntas",
+    "repetitionAfter": "Después de {{count}} preguntas",
+    "repetitionInfinity": "Infinito (Aleatorio)",
+    "timerOff": "Apagado",
+    "timerSeconds": "{{count}} segundos",
+    "startQuiz": "Empezar Cuestionario",
+    "generating": "Generando...",
+    "selectSubjectAlert": "Por favor, selecciona al menos una materia."
+  },
+  "loading": {
+    "generatingQuiz": "Generando tu cuestionario personalizado..."
+  },
+  "quizView": {
+    "question": "Pregunta {{current}} / {{total}}",
+    "score": "Puntuación",
+    "readAloud": "Leer pregunta en voz alta",
+    "typeAnswer": "Escribe tu respuesta aquí...",
+    "submit": "Enviar",
+    "correct": "¡Correcto!",
+    "incorrect": "Incorrecto",
+    "correctAnswer": "Respuesta correcta:",
+    "nextQuestion": "Siguiente Pregunta",
+    "finishQuiz": "Finalizar Cuestionario"
+  },
+  "results": {
+    "perfect": "¡Puntuación Perfecta!",
+    "excellent": "¡Excelente Trabajo!",
+    "good": "¡Buen Trabajo!",
+    "practice": "¡Sigue Practicando!",
+    "betterLuck": "¡Mejor Suerte la Próxima Vez!",
+    "youScored": "Obtuviste",
+    "correctOutOf": "Son {{score}} de {{total}} preguntas correctas.",
+    "playAgain": "Jugar de Nuevo",
+    "share": "Compartir",
+    "leaderboard": "Tabla de Líderes",
+    "noScores": "Aún no hay puntuaciones. ¡Sé el primero!"
+  },
+  "helpModal": {
+    "title": "Ayuda e Instrucciones",
+    "closeButton": "¡Entendido, gracias!",
+    "aboutTitle": "Acerca de {{appName}}",
+    "aboutContent": "{{appName}} {{version}}. {{copyright}}. Creado por {{creatorName}}.",
+    "sections": {
+      "gettingStarted": {
+        "title": "Para Empezar",
+        "content": "¿Primera vez? Ve a la pestaña \"Registrarse\" para crear un nombre de usuario. Si eres un usuario recurrente, selecciona tu nombre de usuario en la pestaña \"Iniciar Sesión\" para continuar tu viaje."
+      },
+      "quizSetup": {
+        "title": "Configurando un Cuestionario",
+        "content": "En la pantalla principal, personaliza tu cuestionario. Selecciona un nivel académico, elige una o más materias, establece la longitud del cuestionario y configura otras opciones como el formato de las preguntas y el temporizador."
+      },
+      "playing": {
+        "title": "Jugando el Cuestionario",
+        "content": "Responde a las preguntas haciendo clic en las opciones o escribiendo tu respuesta. Si está activado, el temporizador hará una cuenta regresiva. Puedes usar comandos de voz como \"Alfa\", \"Bravo\" para opción múltiple, o decir la respuesta para preguntas escritas. Di \"Siguiente\" para pasar a la siguiente pregunta."
+      },
+      "music": {
+        "title": "Música de Fondo",
+        "content": "Usa el reproductor de música en la pantalla principal para reproducir/pausar, saltar pistas y alternar los modos de repetición (repetir todo vs. repetir una). Puedes subir tu propia música desde la ventana emergente después de iniciar sesión, o yendo a Configuración > Cargar Música de Fondo."
+      },
+      "settings": {
+        "title": "Configuración de la Aplicación",
+        "content": "Haz clic en el ícono de engranaje en el encabezado para abrir la configuración. Aquí puedes cambiar el color del tema, gestionar tu biblioteca de música, ajustar el volumen y cerrar sesión."
+      }
+    }
+  },
+  "musicAdmin": {
+    "title": "Almacenamiento Permanente de Música",
+    "addMusic": "Añadir Nuevos Archivos de Música",
+    "loading": "Cargando música desde la base de datos...",
+    "noFiles": "No se encontraron archivos de música en la base de datos.",
+    "confirmRemove": "¿Estás seguro de que quieres eliminar permanentemente \"{{trackName}}\"?",
+    "footer": "Estos archivos se almacenan permanentemente en el IndexedDB del navegador. Los cambios aquí afectarán la lista de reproducción predeterminada para todos los usuarios de esta instancia."
+  },
+  "adminDashboard": {
+    "title": "Panel de Admin",
+    "returnToApp": "Volver a la App",
+    "tabDashboard": "Dashboard",
+    "tabUsers": "Usuarios",
+    "tabMusic": "Biblioteca Musical",
+    "tabCodeAssistant": "Asistente de Código",
+    "totalUsers": "Usuarios Totales",
+    "totalQuizzes": "Cuestionarios Jugados",
+    "creatorInfoTitle": "Información del Creador",
+    "creatorInfoContent": "Por la privacidad del usuario y razones técnicas en un entorno de navegador, las direcciones IP de los usuarios no son ni pueden ser rastreadas por esta aplicación.",
+    "usersUsername": "Usuario",
+    "usersQuizzesPlayed": "Cuestionarios",
+    "usersAverageScore": "Puntuación Media",
+    "usersLastLogin": "Último Acceso",
+    "musicTitle": "Biblioteca Musical",
+    "musicAdd": "Añadir Música",
+    "musicLoading": "Cargando...",
+    "musicNone": "No hay música en la biblioteca.",
+    "assistantTitle": "Asistente de Código",
+    "assistantDescription": "Usa IA para modificar esta aplicación. Describe los cambios que quieres en lenguaje sencillo, y el asistente los aplicará y recargará la app.",
+    "assistantPromptLabel": "Describe los cambios que quieres hacer",
+    "assistantPromptPlaceholder": "Ej: Cambiar el color del tema principal a morado. Añadir una categoría de 'Curiosidades'.",
+    "assistantVersionLabelOptional": "Nuevo Número de Versión (Opcional)",
+    "assistantApplyButton": "Generar y Aplicar Actualización",
+    "assistantApplying": "Aplicando actualización...",
+    "assistantValidationOptional": "Por favor, describe los cambios que quieres hacer.",
+    "assistantEnvNotFound": "Entorno del Asistente de Código no encontrado. Esta función solo está disponible en el marco de desarrollo.",
+    "assistantUpdateFailed": "Ocurrió un error al aplicar la actualización."
+  }
+}

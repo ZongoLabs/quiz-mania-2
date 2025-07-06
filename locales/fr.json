@@ -1,0 +1,168 @@
+{
+  "header": {
+    "file": "Fichier",
+    "newQuiz": "Nouveau Quiz",
+    "exit": "Quitter",
+    "view": "Affichage",
+    "toggleFullscreen": "Plein Écran",
+    "help": "Aide",
+    "instructions": "Instructions",
+    "logout": "Se Déconnecter",
+    "reload": "Recharger le quiz"
+  },
+  "login": {
+    "subtitle": "Votre aventure de quiz personnelle vous attend.",
+    "signIn": "Se Connecter",
+    "register": "S'inscrire",
+    "welcomeBack": "Bon Retour!",
+    "selectProfile": "Sélectionnez votre profil",
+    "createProfile": "Créer un Nouveau Profil",
+    "enterUsername": "Entrez votre nom d'utilisateur",
+    "createAccount": "Créer un Compte",
+    "creatingAccount": "Création du compte..."
+  },
+  "quickSetup": {
+    "title": "Configuration Rapide",
+    "subtitle": "Personnalisez votre expérience ou lancez-vous directement.",
+    "chooseAvatar": "Choisissez Votre Avatar",
+    "themeColor": "Couleur du Thème",
+    "language": "Langue",
+    "musicTitle": "Voulez-vous de la musique de fond?",
+    "uploadMusic": "Charger de la Musique",
+    "uploading": "Chargement...",
+    "continue": "Continuer vers la Configuration du Quiz"
+  },
+  "settingsModal": {
+    "title": "Paramètres",
+    "profileTitle": "Profil Utilisateur",
+    "loggedInAs": "Connecté en tant que :",
+    "logout": "Se Déconnecter",
+    "changeAvatar": "Changer d'Avatar",
+    "musicTitle": "Musique de Fond",
+    "loadMusic": "Charger la Musique",
+    "nowPlaying": "En cours de lecture",
+    "none": "Aucune",
+    "appearanceTitle": "Apparence et Langue",
+    "themeColor": "Couleur du Thème",
+    "language": "Langue"
+  },
+  "quizSettings": {
+    "welcome": "Bienvenue, {{username}}!",
+    "subtitle": "Personnalisez votre quiz et commencez à apprendre.",
+    "repeatAll": "Tout Répéter",
+    "repeatSingle": "Répéter un",
+    "noMusic": "Pas de Musique",
+    "errorTitle": "Erreur",
+    "level": "1. Niveau Académique",
+    "subjects": "2. Matières (sélectionnez-en au moins une)",
+    "quizLength": "3. Longueur du Quiz",
+    "questionFormat": "4. Format des Questions",
+    "formatMultipleChoiceOnly": "Choix Multiples Uniquement",
+    "formatTypedAnswersOnly": "Réponses Tapées Uniquement",
+    "formatAMixOfBoth": "Un Mélange des Deux",
+    "repetition": "5. Répétition des Questions",
+    "timer": "6. Minuteur (par question)",
+    "questions": "Questions",
+    "repetitionAfter": "Après {{count}} questions",
+    "repetitionInfinity": "Infini (Aléatoire)",
+    "timerOff": "Désactivé",
+    "timerSeconds": "{{count}} secondes",
+    "startQuiz": "Commencer le Quiz",
+    "generating": "Génération...",
+    "selectSubjectAlert": "Veuillez sélectionner au moins une matière."
+  },
+  "loading": {
+    "generatingQuiz": "Génération de votre quiz personnalisé..."
+  },
+  "quizView": {
+    "question": "Question {{current}} / {{total}}",
+    "score": "Score",
+    "readAloud": "Lire la question à voix haute",
+    "typeAnswer": "Tapez votre réponse ici...",
+    "submit": "Soumettre",
+    "correct": "Correct !",
+    "incorrect": "Incorrect",
+    "correctAnswer": "Réponse correcte :",
+    "nextQuestion": "Question Suivante",
+    "finishQuiz": "Terminer le Quiz"
+  },
+  "results": {
+    "perfect": "Score Parfait !",
+    "excellent": "Excellent Travail !",
+    "good": "Bon Travail !",
+    "practice": "Continuez à Pratiquer !",
+    "betterLuck": "Meilleure Chance la Prochaine Fois !",
+    "youScored": "Vous avez obtenu",
+    "correctOutOf": "Cela fait {{score}} sur {{total}} questions correctes.",
+    "playAgain": "Rejouer",
+    "share": "Partager",
+    "leaderboard": "Classement",
+    "noScores": "Aucun score pour l'instant. Soyez le premier !"
+  },
+  "helpModal": {
+    "title": "Aide et Instructions",
+    "closeButton": "Compris, merci !",
+    "aboutTitle": "À propos de {{appName}}",
+    "aboutContent": "{{appName}} {{version}}. {{copyright}}. Créé par {{creatorName}}.",
+    "sections": {
+      "gettingStarted": {
+        "title": "Pour Commencer",
+        "content": "Première fois ? Allez dans l'onglet \"S'inscrire\" pour créer un nom d'utilisateur. Si vous êtes un utilisateur existant, sélectionnez votre nom d'utilisateur dans l'onglet \"Se Connecter\" pour continuer votre parcours."
+      },
+      "quizSetup": {
+        "title": "Configuration d'un Quiz",
+        "content": "Sur l'écran principal, personnalisez votre quiz. Sélectionnez un niveau académique, choisissez une ou plusieurs matières, définissez la longueur du quiz et configurez d'autres options comme le format des questions et le minuteur."
+      },
+      "playing": {
+        "title": "Jouer au Quiz",
+        "content": "Répondez aux questions en cliquant sur les options ou en tapant votre réponse. S'il est activé, le minuteur décomptera. Vous pouvez utiliser des commandes vocales comme \"Alpha\", \"Bravo\" pour les choix multiples, ou dire la réponse pour les questions à taper. Dites \"Suivant\" pour passer à la question suivante."
+      },
+      "music": {
+        "title": "Musique de Fond",
+        "content": "Utilisez le lecteur de musique sur l'écran principal pour lire/mettre en pause, sauter des pistes et basculer les modes de répétition (répéter tout vs. répéter un seul). Vous pouvez charger votre propre musique depuis la fenêtre contextuelle après vous être connecté, ou en allant dans Paramètres > Charger la Musique."
+      },
+      "settings": {
+        "title": "Paramètres de l'Application",
+        "content": "Cliquez sur l'icône d'engrenage dans l'en-tête pour ouvrir les paramètres. Ici, vous pouvez changer la couleur du thème, gérer votre bibliothèque musicale, ajuster le volume et vous déconnecter."
+      }
+    }
+  },
+  "musicAdmin": {
+    "title": "Stockage Permanent de Musique",
+    "addMusic": "Ajouter de Nouveaux Fichiers Musicaux",
+    "loading": "Chargement de la musique depuis la base de données...",
+    "noFiles": "Aucun fichier musical trouvé dans la base de données.",
+    "confirmRemove": "Êtes-vous sûr de vouloir supprimer définitivement \"{{trackName}}\" ?",
+    "footer": "Ces fichiers sont stockés en permanence dans l'IndexedDB du navigateur. Les modifications ici affecteront la liste de lecture par défaut pour tous les utilisateurs de cette instance."
+  },
+  "adminDashboard": {
+    "title": "Panneau d'Admin",
+    "returnToApp": "Retour à l'App",
+    "tabDashboard": "Tableau de Bord",
+    "tabUsers": "Utilisateurs",
+    "tabMusic": "Bibliothèque Musicale",
+    "tabCodeAssistant": "Assistant de Code",
+    "totalUsers": "Utilisateurs Totaux",
+    "totalQuizzes": "Quiz Joués",
+    "creatorInfoTitle": "Information du Créateur",
+    "creatorInfoContent": "Pour la confidentialité des utilisateurs et des raisons techniques dans un environnement de navigateur, les adresses IP des utilisateurs ne sont pas et ne peuvent pas être suivies par cette application.",
+    "usersUsername": "Utilisateur",
+    "usersQuizzesPlayed": "Quiz Joués",
+    "usersAverageScore": "Score Moyen",
+    "usersLastLogin": "Dernière Connexion",
+    "musicTitle": "Bibliothèque Musicale",
+    "musicAdd": "Ajouter de la Musique",
+    "musicLoading": "Chargement...",
+    "musicNone": "Aucune musique dans la bibliothèque.",
+    "assistantTitle": "Assistant de Code",
+    "assistantDescription": "Utilisez l'IA pour modifier cette application. Décrivez les changements que vous souhaitez en langage clair, et l'assistant les appliquera et rechargera l'application.",
+    "assistantPromptLabel": "Décrivez les changements que vous souhaitez apporter",
+    "assistantPromptPlaceholder": "Ex : Changer la couleur du thème principal en violet. Ajouter une catégorie de sujet 'Faits Amusants'.",
+    "assistantVersionLabelOptional": "Nouveau Numéro de Version (Optionnel)",
+    "assistantApplyButton": "Générer et Appliquer la Mise à Jour",
+    "assistantApplying": "Application de la mise à jour...",
+    "assistantValidationOptional": "Veuillez décrire les changements que vous souhaitez apporter.",
+    "assistantEnvNotFound": "Environnement de l'Assistant de Code non trouvé. Cette fonctionnalité n'est disponible que dans le cadre de développement.",
+    "assistantUpdateFailed": "Une erreur est survenue lors de l'application de la mise à jour."
+  }
+}

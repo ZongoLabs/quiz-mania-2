@@ -1,0 +1,8 @@
+{
+  "name": "Quiz-mania v1.0.0",
+  "description": "A comprehensive, standalone browser-based quiz application with extensive customization, voice controls, and AI-powered question generation. Test your knowledge across various subjects and academic levels.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "prompt": ""
+}

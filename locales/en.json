@@ -1,0 +1,180 @@
+{
+  "splash": {
+    "clickToBegin": "Click anywhere to begin",
+    "createdBy": "Created by: {{name}}",
+    "copyright": "{{copyright}}"
+  },
+  "header": {
+    "file": "File",
+    "newQuiz": "New Quiz",
+    "exit": "Exit",
+    "view": "View",
+    "toggleFullscreen": "Toggle Fullscreen",
+    "help": "Help",
+    "instructions": "Instructions",
+    "toggleTheme": "Toggle theme",
+    "openHelp": "Open help instructions",
+    "openSettings": "Open settings",
+    "openUserMenu": "Open user menu",
+    "signedInAs": "Signed in as",
+    "logout": "Logout",
+    "reload": "Reload quiz"
+  },
+  "login": {
+    "subtitle": "Your personal quiz adventure awaits.",
+    "signIn": "Sign In",
+    "register": "Register",
+    "welcomeBack": "Welcome Back!",
+    "selectProfile": "Select your profile",
+    "createProfile": "Create a New Profile",
+    "enterUsername": "Enter your username",
+    "createAccount": "Create Account",
+    "creatingAccount": "Creating Account...",
+    "usernameEmptyAlert": "Username cannot be empty.",
+    "usernameExistsAlert": "Username already exists. Please choose another one or select it from the list."
+  },
+  "quickSetup": {
+    "title": "Quick Setup",
+    "subtitle": "Personalize your experience or just jump right in.",
+    "chooseAvatar": "Choose Your Avatar",
+    "themeColor": "Theme Color",
+    "language": "Language",
+    "musicTitle": "Want some background music?",
+    "uploadMusic": "Upload Music",
+    "uploading": "Uploading...",
+    "continue": "Continue to Quiz Setup"
+  },
+  "settingsModal": {
+    "title": "Settings",
+    "profileTitle": "User Profile",
+    "loggedInAs": "Logged in as:",
+    "logout": "Logout",
+    "changeAvatar": "Change Avatar",
+    "musicTitle": "Background Music",
+    "loadMusic": "Load Background Music",
+    "nowPlaying": "Now Playing",
+    "none": "None",
+    "appearanceTitle": "Appearance & Language",
+    "themeColor": "Theme Color",
+    "language": "Language"
+  },
+  "quizSettings": {
+    "welcome": "Welcome, {{username}}!",
+    "subtitle": "Customize your quiz and start learning.",
+    "repeatAll": "Repeat All",
+    "repeatSingle": "Repeat Single",
+    "noMusic": "No Music",
+    "errorTitle": "Error",
+    "level": "1. Academic Level",
+    "subjects": "2. Subjects (select at least one)",
+    "quizLength": "3. Quiz Length",
+    "questionFormat": "4. Question Format",
+    "formatMultipleChoiceOnly": "Multiple Choice only",
+    "formatTypedAnswersOnly": "Typed-in answers only",
+    "formatAMixOfBoth": "A mix of both",
+    "repetition": "5. Question Repetition",
+    "timer": "6. Timer (per question)",
+    "questions": "Questions",
+    "repetitionAfter": "After {{count}} questions",
+    "repetitionInfinity": "Infinity (Random)",
+    "timerOff": "Off",
+    "timerSeconds": "{{count}} seconds",
+    "startQuiz": "Start Quiz",
+    "generating": "Generating...",
+    "selectSubjectAlert": "Please select at least one subject."
+  },
+  "loading": {
+    "generatingQuiz": "Generating your personalized quiz..."
+  },
+  "quizView": {
+    "question": "Question {{current}} / {{total}}",
+    "score": "Score",
+    "readAloud": "Read question aloud",
+    "typeAnswer": "Type your answer here...",
+    "submit": "Submit",
+    "correct": "Correct!",
+    "incorrect": "Incorrect",
+    "correctAnswer": "Correct answer:",
+    "nextQuestion": "Next Question",
+    "finishQuiz": "Finish Quiz"
+  },
+  "results": {
+    "perfect": "Perfect Score!",
+    "excellent": "Excellent Work!",
+    "good": "Good Job!",
+    "practice": "Keep Practicing!",
+    "betterLuck": "Better Luck Next Time!",
+    "youScored": "You scored",
+    "correctOutOf": "That's {{score}} out of {{total}} questions correct.",
+    "playAgain": "Play Again",
+    "share": "Share",
+    "leaderboard": "Leaderboard",
+    "noScores": "No scores yet. Be the first!"
+  },
+  "helpModal": {
+    "title": "Help & Instructions",
+    "closeButton": "Got it, thanks!",
+    "aboutTitle": "About {{appName}}",
+    "aboutContent": "{{appName}} {{version}}. {{copyright}}. Created by {{creatorName}}.",
+    "sections": {
+      "gettingStarted": {
+        "title": "Getting Started",
+        "content": "First time? Go to the \"Register\" tab to create a username. If you are a returning user, select your username from the \"Sign In\" tab to continue your journey."
+      },
+      "quizSetup": {
+        "title": "Setting Up a Quiz",
+        "content": "On the main screen, customize your quiz. Select an academic level, choose one or more subjects, set the quiz length, and configure other options like question format and timer."
+      },
+      "playing": {
+        "title": "Playing the Quiz",
+        "content": "Answer questions by clicking the options or typing your answer. If enabled, the timer will count down. You can use voice commands like \"Alpha\", \"Bravo\" for multiple choice, or say the answer for typed questions. Say \"Next\" to move to the next question."
+      },
+      "music": {
+        "title": "Background Music",
+        "content": "Use the music player on the main screen to play/pause, skip tracks, and toggle repeat modes (repeat all vs. repeat single). You can upload your own music from the pop-up after logging in, or by going to Settings > Load Background Music."
+      },
+      "settings": {
+        "title": "Application Settings",
+        "content": "Click the gear icon in the header to open settings. Here you can change the theme color, manage your music library, adjust volume, and log out."
+      }
+    }
+  },
+  "musicAdmin": {
+    "title": "Permanent Music Storage",
+    "addMusic": "Add New Music File(s)",
+    "loading": "Loading music from database...",
+    "noFiles": "No music files found in the database.",
+    "confirmRemove": "Are you sure you want to permanently remove \"{{trackName}}\"?",
+    "footer": "These files are stored permanently in the browser's IndexedDB. Changes here will affect the default playlist for all users of this instance."
+  },
+  "adminDashboard": {
+    "title": "Admin Panel",
+    "returnToApp": "Return to App",
+    "tabDashboard": "Dashboard",
+    "tabUsers": "Users",
+    "tabMusic": "Music Library",
+    "tabCodeAssistant": "Code Assistant",
+    "totalUsers": "Total Users",
+    "totalQuizzes": "Total Quizzes Played",
+    "creatorInfoTitle": "Creator Information",
+    "creatorInfoContent": "For user privacy and technical reasons within a sandboxed browser environment, user IP addresses are not and cannot be tracked by this application.",
+    "usersUsername": "Username",
+    "usersQuizzesPlayed": "Quizzes Played",
+    "usersAverageScore": "Average Score",
+    "usersLastLogin": "Last Login",
+    "musicTitle": "Music Library",
+    "musicAdd": "Add Music",
+    "musicLoading": "Loading...",
+    "musicNone": "No music in library.",
+    "assistantTitle": "Code Assistant",
+    "assistantDescription": "Use AI to modify this application. Describe the changes you want in plain English, and the assistant will apply them and reload the app.",
+    "assistantPromptLabel": "Describe the changes you want to make",
+    "assistantPromptPlaceholder": "e.g., Change the primary theme color to purple and add 'orange' as an option. Add a new 'Fun Facts' subject category.",
+    "assistantVersionLabelOptional": "New Version Number (Optional)",
+    "assistantApplyButton": "Generate & Apply Update",
+    "assistantApplying": "Applying Update...",
+    "assistantValidationOptional": "Please describe the changes you want to make.",
+    "assistantEnvNotFound": "Code Assistant environment not found. This feature is only available in the development frame.",
+    "assistantUpdateFailed": "An error occurred while applying the update."
+  }
+}
